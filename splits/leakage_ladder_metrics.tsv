@@ -1,0 +1,8 @@
+level	gene_pcc	spot_pcc	inflation_factor	notes
+Level 0: Spot Random	0.3527767956256866	0.8515500426292419	21.97986221313477	Severely inflated by within-slide spatial autocorrelation and patient leakage
+Level 1: Spatial Block Holdout	0.3245531022548675	0.8481271862983704	20.221378326416016	Within-slide patient/batch leakage retained, but immediate neighbor interpolation broken
+Level 2: Slide Holdout (Naive)	0.0221437886357307	0.6932317018508911	1.379675269126892	Disjoint slides without formal verification of donor or serial-section boundaries
+Level 3: Patient Holdout (PRIMARY)	0.01605	0.781	1.0	Strict 5-fold patient-grouped CV; zero patient, donor, or serial section overlap
+Level 4: Cohort Holdout (LOCO)	0.0011543176604984	-0.2031102770491352	0.0719201034578502	Trained on Harvard CCRCC, evaluated on external NCBI multi-center cohort
+Level 5: Cancer Holdout (LOCTO)	0.0249007688835263	-0.0221352267745959	1.5514497746745377	Zero-shot transfer from clear cell renal carcinoma to colorectal adenocarcinoma
+Level 6: Platform Holdout (Visium -> Xenium)	0.0164892339344266	-0.0070247775523482	1.027366600275805	Transfer from whole-transcriptome Visium to subcellular targeted in situ sequencing (Xenium)

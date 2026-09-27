@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+ENV/
+.env
+
+# Large raw slide datasets (quarantined from public git repository)
+*.svs
+*.ndpi
+*.tif
+*.tiff
+*.h5
+*.h5ad
+*.rds
+*.tar.gz
+data/raw/

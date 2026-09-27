@@ -1,0 +1,5 @@
+Component	Variance_Explained_Pct	CI_95_Lower	CI_95_Upper	Absolute_PCC_Contribution	Model_Type	Mechanism
+Physical Support Mismatch (15um vs 55um)	26.8	20.9	33.3	0.005	Exploratory ANOVA variance partitioning (LMG metric)	Spatial point-spread convolution reduces zero-inflation and optical decoding noise.
+Platform Detection Chemistry (In situ vs Probe Capture)	32.4	26.0	38.8	0.006	Exploratory ANOVA variance partitioning (LMG metric)	Fluorescence optical decoding vs cDNA sequencing yield differing transcript sensitivities.
+Organ / Biological Divergence	25.1	19.2	31.4	0.0047	Exploratory ANOVA variance partitioning (LMG metric)	Renal tubular architecture vs mammary ductal histology.
+Residual / Acquisition Batch Signatures	15.7	11.0	21.2	0.0029	Exploratory ANOVA variance partitioning (residual variance)	Staining variations, scanner illumination optics, and higher-order interactions.

@@ -1,0 +1,26 @@
+project_name: "VST-Eval-Integrity"
+version: "2.0.0"
+date: "2026-09-27"
+random_seed: 42
+n_bootstrap: 2000
+spatial_permutations_per_slide: 1000
+tost_margins:
+  narrow: 0.003
+  wide: 0.005
+
+cohorts:
+  primary: "CCRCC_24_donors"
+  external_geo: "GEO_CCRCC_4_slides"
+  cross_cancer_breast: "10x_IDC_BRCA_2_slides"
+  cross_cancer_colon: "10x_COAD_2_slides"
+  cross_platform_xenium: "Breast_Xenium_8_slides"
+
+paths:
+  donor_registry: "donor_audit/DONOR_PROVENANCE_MASTER.tsv"
+  leakage_ladder: "splits/leakage_ladder_metrics.tsv"
+  patient_eor: "splits/patient_paired_eor.tsv"
+  coord_suite: "coordinate_nulls/coordinate_null_suite.tsv"
+  spatial_null: "spatial_nulls/spatial_autocorrelation_null.tsv"
+  tost_results: "equivalence_tests/tost_equivalence_tests.tsv"
+  support_ablation: "support_harmonization/support_harmonization_ablation.tsv"
+  figures: "reproduce_figures/"

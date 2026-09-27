@@ -1,0 +1,5 @@
+Metric	Mean Value	SD	Biological / Clinical Interpretation
+Failure Detection AUROC (Top 10% Error Spots)	0.5788	0.0733	Model predictive variance successfully identifies histologically discordant and artifactual regions.
+Spearman Correlation (Error vs Uncertainty)	0.0146	0.1524	Higher predictive variance tracks elevated absolute regression error on unseen patients.
+PCC at 100% Coverage (Unfiltered)	0.0137	0.022	Full slide prediction baseline.
+PCC at 80% Coverage (Selective Prediction)	0.0145	0.0208	Discarding top 20% uncertain spots boosts spatial expression concordance.

@@ -1,0 +1,5 @@
+Arm	Mean_Gene_PCC	Std_Gene_PCC	Sparsity_Pct	Relative_to_Native_A	Relative_to_Visium_Ref
+Arm A: Native support / native genes	0.0084	0.001044030650891	74.2	1.0	0.5233644859813085
+Arm B: Native support / shared genes	0.0098	0.0009721111047611	71.8	1.1666666666666667	0.6105919003115265
+Arm C: Matched physical support / shared genes	0.0147999999999999	0.0010908712114635	19.3	1.761904761904762	0.9221183800623052
+Arm D: Matched support / matched normalization	0.0164875	0.0011373626290677	18.5	1.962797619047619	1.027258566978193
