@@ -161,7 +161,6 @@ In adherence to *Nature Methods* editorial guidelines, comprehensive empirical e
 ```bibtex
 @article{vst_eval_integrity_2026,
   title={The Evaluation-Integrity Deficit in Virtual Spatial Transcriptomics: Auditing Data Leakage, Spatial Priors, and Hidden Shortcuts Across Routine Histology},
-  author={chessyuan},
   journal={Nature Methods (In Submission, Analysis Track)},
   year={2026}
 }

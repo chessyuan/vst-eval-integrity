@@ -17,7 +17,7 @@ def main():
     print('=' * 75)
     print('  VST-EVAL-INTEGRITY: REPRODUCIBLE COMPUTATIONAL BENCHMARK HARNESS')
     print('  Target Venue: Nature Methods (Analysis Track)')
-    print('  Author: chessyuan (the institution)')
+    print('  Maintainer: Repository maintainer')
     print('=' * 75)
     base_dir = os.path.dirname(os.path.abspath(__file__))
     total_start = time.time()
